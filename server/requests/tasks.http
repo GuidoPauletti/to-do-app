@@ -1,0 +1,32 @@
+
+@dir = http://localhost:3000/tasks
+
+GET {{dir}}
+
+###
+
+GET  {{dir}}/2
+
+###
+GET {{dir}}/count
+
+###
+POST {{dir}}
+Content-Type: application/json
+
+{
+    "title": "alguna tarea",
+    "descript": "y su descripcion"
+}
+
+###
+DELETE {{dir}}/6
+
+###
+PUT {{dir}}/2
+Content-Type: application/json
+
+{
+    "title":"su titulo cambio",
+    "descript":"y su descripcion tambien"
+}

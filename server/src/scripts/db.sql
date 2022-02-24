@@ -1,0 +1,12 @@
+
+
+CREATE DATABASE IF NOT EXISTS Tasks;
+
+USE Tasks;
+
+CREATE TABLE IF NOT EXISTS Tasks (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(100) NOT NULL,
+    descript TEXT,
+    PRIMARY KEY (id) 
+);
