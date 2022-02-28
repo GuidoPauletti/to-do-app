@@ -38,7 +38,7 @@ export default function TaskList() {
 
   return (
     <FlatList
-        style={{width:'100%'}}
+        style={{width:'90%'}}
         data={tasks}
         keyExtractor={(item) => item.id + ''}
         renderItem={renderItem}

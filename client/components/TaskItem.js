@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
     },
     TaskTitle: {
         color: 'white'
-    }
+    },
+    
 })
 
 export default TaskItem

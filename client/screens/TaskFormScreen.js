@@ -46,7 +46,7 @@ const TaskFormScreen = ({navigation, route}) => {
   return (
     
     <Layouts>
-      <View >
+      
       <TextInput
       style={styles.input}
       placeholder='Write a task title'
@@ -69,7 +69,7 @@ const TaskFormScreen = ({navigation, route}) => {
           <Text style={styles.buttonText}>Update task</Text>
         </TouchableOpacity>)
       }
-      </View>
+      
     </Layouts>
     
   )
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     marginBottom: 7,
     borderColor: '#ffffff',
     borderWidth: 2,
-    width: '100%',
+    width: '90%',
     fontSize: 20,
     height: 45,
     color:"#ffffff",
@@ -91,14 +91,14 @@ const styles = StyleSheet.create({
   saveButton: {
     paddingVertical: 10,
     marginBottom: 10,
-    width: '100%',
+    width: '90%',
     borderRadius: 5,
     backgroundColor: '#10ac84',
   },
   updateButton:{
     paddingVertical: 10,
     marginBottom: 10,
-    width: '100%',
+    width: '90%',
     borderRadius: 5,
     backgroundColor:'#e58e26'
   },

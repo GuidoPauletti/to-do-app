@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet, StatusBar } from 'react-native'
+import { View, StyleSheet, StatusBar } from 'react-native'
 import React from 'react'
 
 const Layouts = ({children}) => {
   return (
     <View style={styles.container}>
       <StatusBar backgroundColor='#222f3e'/>
-      <Text>{children}</Text>
+      {children}
     </View>
   )
 }
